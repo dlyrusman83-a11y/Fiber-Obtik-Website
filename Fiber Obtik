@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiber Optik Indonesia | Teknologi Masa Depan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --biru-tua: #0c4a6e;
+            --biru: #0284c7;
+            --biru-muda: #38bdf8;
+            --cyan: #06b6d4;
+            --gelap: #1e293b;
+            --terang: #f8fafc;
+            --abu: #64748b;
+            --putih: #ffffff;
+        }
+
+        body {
+            line-height: 1.7;
+            color: var(--gelap);
+            background-color: #f0f9ff;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255,255,255,0.95);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            z-index: 999;
+        }
+
+        .nav-wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--biru);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--gelap);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: var(--biru);
+        }
+
+        .menu-btn {
+            display: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
+        .hero {
+            margin-top: 70px;
+            background: linear-gradient(135deg, var(--biru-tua), var(--biru));
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 3rem 2rem;
+            color: var(--putih);
+        }
+
+        .hero-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.92;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.85rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-utama {
+            background: var(--putih);
+            color: var(--biru);
+            margin-right: 0.8rem;
+        }
+
+        .btn-utama:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn-kedua {
+            border: 2px solid white;
+            color: white;
+            background: transparent;
+        }
+
+        .btn-kedua:hover {
+            background: white;
+            color: var(--biru);
+        }
+
+        .hero-gambar {
+            background: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600') center/cover no-repeat;
+            height: 400px;
+            border-radius: 16px;
+        }
+
+        section {
+            padding: 4.5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .judul-bagian {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--biru-tua);
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .judul-bagian::after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background: var(--cyan);
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .penjelasan-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .gambar-ilustrasi {
+            background: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600') center/cover no-repeat;
+            height: 350px;
+            border-radius: 12px;
+        }
+
+        .teks h3 {
+            font-size: 1.4rem;
+            color: var(--biru);
+            margin-bottom: 1rem;
+        }
+
+        .teks p {
+            margin-bottom: 1rem;
+            color: var(--abu);
+        }
+
+        #kelebihan {
+            background: var(--terang);
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.8rem;
+        }
+
+        .kartu {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--biru);
+            transition: transform 0.3s;
+        }
+
+        .kartu:hover {
+            transform: translateY(-5px);
+        }
+
+        .kartu .ikon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .kartu h4 {
+            color: var(--biru-tua);
+            margin-bottom: 0.5rem;
+        }
+
+        .kartu p {
+            color: var(--abu);
+        }
+
+        .jenis-wrap {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .jenis-kartu {
+            padding: 2rem;
+            border-radius: 12px;
+            background: linear-gradient(145deg, #ffffff, #e0f2fe);
+            border: 1px solid #bae6fd;
+        }
+
+        .jenis-kartu h4 {
+            color: var(--biru-tua);
+            margin-bottom: 0.8rem;
+        }
+
+        .jenis-kartu span {
+            display: inline-block;
+            background: var(--biru-muda);
+            color: white;
+            padding: 0.25rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .daftar-komponen {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+
+        .daftar-komponen ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .daftar-komponen li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .daftar-komponen li strong {
+            color: var(--biru);
+        }
+
+        footer {
+            background: var(--gelap);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .menu-btn {
+                display: block;
+            }
+            .nav-menu {
+                position: absolute;
+                top: 65px;
+                left: 0;
+                width: 100%;
+                background: white;
+                flex-direction: column;
+                padding: 1rem 2rem;
+                gap: 1rem;
+                display: none;
+                box-shadow: 0 8px 10px rgba(0,0,0,0.05);
+            }
+            .nav-menu.tampil {
+                display: flex;
+            }
+            .hero-grid, .penjelasan-wrap {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="nav-wrap">
+            <div class="logo">🔷 FiberOptik</div>
+            <div class="menu-btn" id="menuBtn">☰</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Apa Itu?</a></li>
+                <li><a href="#kelebihan">Kelebihan</a></li>
+                <li><a href="#jenis">Jenis</a></li>
+                <li><a href="#komponen">Komponen</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Beranda -->
+    <section class="hero" id="beranda">
+        <div class="hero-grid">
+            <div>
+                <h1>Internet Super Cepat Menggunakan Teknologi Fiber Optik</h1>
+                <p>Transmisi data tercepat dan paling stabil di dunia. Menggunakan cahaya untuk mengirim informasi, menghadirkan koneksi tanpa batas.</p>
+                <a href="#tentang" class="btn btn-utama">Pelajari Lebih Lanjut</a>
+                <a href="#tentang" class="btn btn-kedua">Mulai</a>
+            </div>
+            <div class="hero-gambar"></div>
+        </div>
+    </section>
+
+    <!-- Apa Itu Fiber Optik -->
+    <section id="tentang">
+        <h2 class="judul-bagian">Apa Itu Fiber Optik?</h2>
+        <div class="penjelasan-wrap">
+            <div class="gambar-ilustrasi"></div>
+            <div class="teks">
+                <h3>Kabel Serat Optik — Teknologi Masa Depan</h3>
+                <p><strong>Fiber optik</strong> adalah kabel yang terbuat dari kaca atau plastik yang sangat halus, berfungsi sebagai media transmisi sinyal cahaya untuk mengirim data dari satu tempat ke tempat lain.</p>
+                <p>Cahaya yang merambat di dalam inti serat memantul berulang kali sepanjang kabel, memungkinkan data dikirim dengan kecepatan sangat tinggi, jauh lebih cepat daripada kabel tembaga biasa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kelebihan -->
+    <section id="kelebihan">
+        <h2 class="judul-bagian">Kelebihan Fiber Optik</h2>
+        <div class="grid-3">
+            <div class="kartu">
+                <div class="ikon">⚡</div>
+                <h4>Kecepatan Tinggi</h4>
+                <p>Hingga 100 Gbps, ratusan kali lebih cepat dari kabel tembaga.</p>
+            </div>
+            <div class="kartu">
+                <div class="ikon">🛡️</div>
+                <h4>Aman & Stabil</h4>
+                <p>Tidak terpengaruh gangguan listrik dan sulit disadap.</p>
+            </div>
+            <div class="kartu">
+                <div class="ikon">📏</div>
+                <h4>Jarak Jauh</h4>
+                <p>Sinyal tetap kuat hingga puluhan kilometer tanpa penguat.</p>
+            </div>
+            <div class="kartu">
+                <div class="ikon">💪</div>
+                <h4>Kapasitas Besar</h4>
+                <p>Satu kabel bisa menampung ribuan saluran sekaligus.</p>
+            </div>
+            <div class="kartu">
+                <div class="ikon">🌡️</div>
+                <h4>Tahan Cuaca</h4>
+                <p>Lebih tahan terhadap suhu dan kelembapan.</p>
+            </div>
+            <div class="kartu">
+                <div class="ikon">🌍</div>
+                <hpre>Hemat Energi</hpre>
+                <p>Membutuhkan daya lebih kecil dibanding kabel biasa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jenis Fiber Optik -->
+    <section id="jenis">
+        <h2 class="judul-bagian">Jenis Fiber Optik</h2>
+        <div class="jenis-wrap">
+            <div class="jenis-kartu">
+                <h4>🔹 Single-Mode Fiber</h4>
+                <span>Jarak Jauh</span>
+                <p>Inti sangat kecil (~9 mikrometer). Digunakan untuk sambungan antar kota, antar negara, dan kabel bawah laut.</p>
+                <p><strong>Jarak:</strong> 2 km – 100+ km</p>
+            </div>
+            <div class="jenis-kartu">
+                <h4>🔸 Multi-Mode Fiber</h4>
+                <span>Jarak Pendek</span>
+                <p>Inti lebih besar (~50 mikrometer). Cocok untuk jaringan dalam gedung, perkantoran, atau pusat data.</p>
+                <p><strong>Jarak:</strong> Maksimal 500 m – 2 km</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Komponen -->
+    <section id="komponen">
+        <h2 class="judul-bagian">Komponen Utama</h2>
+        <div class="daftar-komponen">
+            <ul>
+                <li><strong>🔹 Inti (Core)</strong> — Bagian tengah tempat cahaya merambat, terbuat dari kaca murni</li>
+                <li><strong>🔹 Selubung (Cladding)</strong> — Lapisan luar inti, memantulkan cahaya agar tetap di dalam inti</li>
+                <li><strong>🔹 Lapisan Pelindung (Coating)</strong> — Melindungi serat dari kerusakan fisik dan kelembapan</li>
+                <li><strong>🔹 Kekuatan (Strength Member)</strong> — Melindungi kabel dari tarikan saat pemasangan</li>
+                <li><strong>🔹 Kulit Luar (Jacket)</strong> — Lapisan terluar, melindungi dari cuaca dan kerusakan lingkungan</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Fiber Optik Website. Dibuat dengan ❤️ di Medan, Indonesia.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const navMenu = document.getElementById('navMenu');
+        menuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('tampil');
+        });
+    </script>
+</body>
+</html>
