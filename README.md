@@ -153,8 +153,8 @@
 <body>
 
     <div class="judul">
-        <h1>👥 KELOMPOK [NAMA KELOMPOK]</h1>
-        <p>Proyek: [Tulis Nama Proyekmu di Sini]</p>
+        <h1>👥 KELOMPOK 4 [ALPHA SIX]</h1>
+        <p>Proyek: [FIBER OBTIK]</p>
     </div>
 
     <!-- Menu Klik -->
@@ -244,7 +244,7 @@
 
     <div class="penutup">
         <h3>✨ Terima Kasih Telah Berkunjung!</h3>
-        <p>Kami berkelompok dengan tujuan saling melengkapi dan belajar bersama. Semoga hasil kerja kami bermanfaat!</p>
+        <p>Kami berkelompok dengan tujuan saling melengkapi dan belajar bersama, Silahkan dilanjutkan.Semoga hasil kerja kami bermanfaat!</p>
     </div>
 
     <!-- JavaScript untuk Klik -->
@@ -287,7 +287,7 @@
             --gelap: #1e293b;
             --terang: #f8fafc;
             --abu: #64748b;
-            --kuning-muda: #fef3c7;
+            --biru-tua: #0c4a6e;
         }
 
         body {
