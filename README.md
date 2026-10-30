@@ -14,13 +14,13 @@
 
         :root {
             --biru-tua: #0c4a6e;
-            --biru: #0284c7;
+            --biru-muda: #f0f9ff;
             --biru-muda: #38bdf8;
             --cyan: #06b6d4;
             --gelap: #1e293b;
             --terang: #f8fafc;
             --abu: #64748b;
-            --putih: #ffffff;
+            --kuning-muda: #fef3c7;
         }
 
         body {
