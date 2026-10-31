@@ -764,3 +764,122 @@
             <ul>
                 <li><strong>🔹 Inti (
                 
+<!-- Bagian Penutup -->
+<div class="penutup">
+    <div class="gambar-kelompok">
+        <div class="anggota">
+            <img src="https://i.pravatar.cc/150?img=1" alt="Ketua Kelompok">
+            <p>Ketua Kelompok</p>
+        </div>
+        <div class="anggota">
+            <img src="https://i.pravatar.cc/150?img=2" alt="Desainer">
+            <p>Desainer</p>
+        </div>
+        <div class="anggota">
+            <img src="https://i.pravatar.cc/150?img=3" alt="Programmer">
+            <p>Programmer</p>
+        </div>
+        <div class="anggota">
+            <img src="https://i.pravatar.cc/150?img=4" alt="Peneliti">
+            <p>Peneliti</p>
+        </div>
+        <div class="anggota">
+            <img src="https://i.pravatar.cc/150?img=5" alt="Penulis Konten">
+            <p>Penulis Konten</p>
+        </div>
+        <div class="anggota">
+            <img src="https://i.pravatar.cc/150?img=6" alt="Penguji & Dokumentasi">
+            <p>Penguji & Dokumentasi</p>
+        </div>
+    </div>
+
+    <h2>Terima Kasih Telah Berkunjung! 🙏</h2>
+
+    <p>Kami dari Kelompok [Nama Kelompok] mengucapkan terima kasih telah mengunjungi halaman perkenalan kami. Semoga hasil kerja dan informasi yang kami sajikan dapat bermanfaat bagi kita semua.</p>
+
+    <p class="pesan-baik">✨ "Bersama kita belajar, bersama kita berkarya, dan bersama kita berhasil." ✨</p>
+
+    <div class="sosial-bawah">
+        <p>📍 Medan, Indonesia | 📅 Oktober 2026</p>
+    </div>
+</div>
+
+<style>
+.penutup {
+    background: linear-gradient(135deg, #1e3a8a, #1e40af);
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    max-width: 800px;
+    margin: 4rem auto 2rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.gambar-kelompok {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.anggota {
+    text-align: center;
+}
+
+.anggota img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.anggota p {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.penutup h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.penutup p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    opacity: 0.92;
+}
+
+.pesan-baik {
+    font-style: italic;
+    font-weight: 500;
+    color: #bfdbfe;
+    margin: 1.5rem 0;
+}
+
+.sosial-bawah {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Untuk HP */
+@media (max-width: 600px) {
+    .penutup {
+        padding: 2rem 1.5rem;
+    }
+
+    .gambar-kelompok {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .anggota img {
+        max-width: 80px;
+    }
+}
+</style>
