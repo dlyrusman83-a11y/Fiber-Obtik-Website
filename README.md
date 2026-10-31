@@ -763,28 +763,4 @@
         <div class="daftar-komponen">
             <ul>
                 <li><strong>🔹 Inti (
-<div class="penutup">
-    <div class="gambar-kelompok">
-        <div class="anggota">
-            <img src="https://i.pravatar.cc/150?img=1" alt="Ketua Kelompok">
-            <p>Ketua Kelompok</p>
-        </div>
-        <div class="anggota">
-            <img src="https://i.pravatar.cc/150?img=2" alt="Desainer">
-            <p>Desainer</p>
-        </div>
-        <div class="anggota">
-            <img src="https://i.pravatar.cc/150?img=3" alt="Programmer">
-            <p>Programmer</p>
-        </div>
-        <div class="anggota">
-            <img src="https://i.pravatar.cc/150?img=4" alt="Peneliti">
-            <p>Peneliti</p>
-        </div>
-        <div class="anggota">
-            <img src="https://i.pravatar.cc/150?img=5" alt="Penulis Konten">
-            <p>Penulis Konten</p>
-        </div>
-        <div class="anggota">
-            <img src="https://i.pravatar.cc/150?img=6" alt="Penguji & Dokumentasi">
             
