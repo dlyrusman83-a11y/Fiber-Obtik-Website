@@ -236,7 +236,7 @@
             <div class="peran-nama">🔍 Penguji & Dokumentasi</div>
             <p class="deskripsi">Menguji semua bagian website, mencatat perbaikan yang dibutuhkan, dan menyusun laporan dokumentasi hasil kerja kelompok.</p>
             <div class="info">
-                📚 Sekolah: SMA 1 Medan<br>
+                📚 Sekolah: SMK N 2 PANYABUNGAN<br>
                 📧 Email: najwanaditya2010@email.com
             </div>
         </div>
