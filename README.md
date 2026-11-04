@@ -287,8 +287,7 @@
             --gelap: #1e293b;
             --terang: #f8fafc;
             --abu: #64748b;
-            --biru-tua: #0c4a6e;
-            background: linear-gradient(135deg, #0f2044, #1a3b80); /* Biru tua gradasi */
+            --biru-langit-malam: #1e40af;
         }
 
         body {
