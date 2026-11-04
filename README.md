@@ -753,7 +753,6 @@ nav {
 </nav>
 <section id="beranda">
   <h2>Halaman Beranda Fiber Optik</h2>
-<section>
 <script>
 const menuBtn = document.getElementById('menuBtn');
 const navMenu = document.getElementById('navMenu');
