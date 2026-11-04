@@ -658,21 +658,115 @@
     </style>
 </head>
 <body>
-    <!-- Navigasi -->
-    <nav>
-        <div class="nav-wrap">
-            <div class="logo">🔷 FiberOptik</div>
-            <div class="menu-btn" id="menuBtn">☰</div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#tentang">Apa Itu?</a></li>
-                <li><a href="#kelebihan">Kelebihan</a></li>
-                <li><a href="#jenis">Jenis</a></li>
-                <li><a href="#komponen">Komponen</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </div>
-    </nav>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Fiber Optik</title>
+<style>
+/* Reset bawaan browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans‑serif;
+}
+
+nav {
+  background‑color: #0f2044; /* Biru tua sesuai permintaanmu */
+  width: 100%;
+  padding: 18px 5%;
+}
+
+.nav‑wrap {
+  display: flex; /* Ini yang bikin sejajar tidak miring */
+  justify‑content: space‑between;
+  align‑items: center;
+}
+
+.logo {
+  color: white;
+  font‑size: 22px;
+  font‑weight: bold;
+}
+
+.menu‑btn {
+  color: white;
+  font‑size: 28px;
+  cursor: pointer;
+  display: none; /* Sembunyikan tombol hamburger di layar besar */
+}
+
+.nav‑menu {
+  display: flex;
+  gap: 28px; /* Jarak antar menu sama rata */
+  list‑style: none; /* Hilangkan titik bulat ul */
+}
+
+.nav‑menu li a {
+  color: white;
+  text‑decoration: none;
+  font‑size: 16px;
+  transition: 0.3s;
+}
+
+.nav‑menu li a:hover {
+  color: #42a5f5; /* Warna biru muda saat dihover */
+}
+
+/* Responsif HP: muncul tombol hamburger */
+@media (max‑width: 768px) {
+  .menu‑btn {
+    display: block;
+  }
+  .nav‑menu {
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    flex‑direction: column;
+    background: #0f2044;
+    padding: 15px;
+    gap:15px;
+    display: none; /* Sembunyikan menu hp secara default */
+  }
+  .nav‑menu.active {
+    display: flex;
+  }
+}
+</style>
+</head>
+<body>
+<!-- Navigasi (kode kamu yang sudah benar struktur) -->
+<nav>
+  <div class="nav‑wrap">
+    <div class="logo">◆ FiberOptik</div>
+    <div class="menu‑btn" id="menuBtn">☰</div>
+    <ul class="nav‑menu" id="navMenu">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#tentang">Apa Itu?</a></li>
+      <li><a href="#kelebihan">Kelebihan</a></li>
+      <li><a href="#jenis">Jenis</a></li>
+      <li><a href="#komponen">Komponen</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Isi halaman kamu disini -->
+<section id="beranda">
+  <h2>Halaman Beranda Fiber Optik</h2>
+</section>
+
+<!-- Script untuk tombol menu hp -->
+<script>
+const menuBtn = document.getElementById('menuBtn');
+const navMenu = document.getElementById('navMenu');
+menuBtn.addEventListener('click', ()=>{
+  navMenu.classList.toggle('active');
+})
+</script>
+</body>
+</html>
 
     <!-- Beranda/Hero -->
     <section class="hero" id="beranda">
