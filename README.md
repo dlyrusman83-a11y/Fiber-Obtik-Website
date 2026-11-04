@@ -760,8 +760,6 @@ menuBtn.addEventListener('click', ()=>{
   navMenu.classList.toggle('active');
 })
 </script>
-</body>
-</html>
 
     <!-- Beranda/Hero -->
     <section class="hero" id="beranda">
