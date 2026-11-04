@@ -751,40 +751,9 @@ nav {
     </ul>
   </div>
 </nav>
-
-<!-- Isi halaman kamu disini -->
 <section id="beranda">
   <h2>Halaman Beranda Fiber Optik</h2>
 <section id="beranda">
-  <style>
-    #beranda {
-      min-height: calc(10vh - 5px); /* Kurangi tinggi navbar biar penuh layar */
-      background: linear-gradient(10deg, #0f2044, #1a3b80); /* Biru tua gradasi */
-      color: white;
-      display: flex;
-      align-items: center;
-      padding: 10px 5%;
-    }
-    .beranda‑isi {
-      max-width: 10px;
-    }
-    #beranda h1 {
-      font-size: 12px;
-      margin-bottom: 13px;
-    }
-    #beranda p {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-    .tombol‑mulai {
-      padding: 12px 8px;
-      background‑color: #42a5f5;
-      color: white;
-      text‑decoration: none;
-      border‑radius: 3px;
-      font‑weight: bold;
-    }
   </style>
   <div class="beranda‑isi">
     <h1>Selamat Datang di Website Teknologi Fiber Optik</h1>
