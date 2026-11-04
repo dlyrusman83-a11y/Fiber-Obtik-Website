@@ -656,8 +656,7 @@
             }
         }
     </style>
-</head>
-<body>
+
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -669,79 +668,79 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans‑serif;
+  font-family: Arial, sans-serif;
 }
 
 nav {
-  background‑color: #0f2044; /* Biru tua sesuai permintaanmu */
+  background-color: #0f2044; /* Latar NAV BAR Biru Tua */
   width: 100%;
   padding: 18px 5%;
 }
 
-.nav‑wrap {
-  display: flex; /* Ini yang bikin sejajar tidak miring */
-  justify‑content: space‑between;
-  align‑items: center;
+.nav-wrap { /* ✅ MINUS BIASA - */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   color: white;
-  font‑size: 22px;
-  font‑weight: bold;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.menu‑btn {
+.menu-btn { /* ✅ MINUS BIASA - */
   color: white;
-  font‑size: 28px;
+  font-size: 28px;
   cursor: pointer;
-  display: none; /* Sembunyikan tombol hamburger di layar besar */
+  display: none;
 }
 
-.nav‑menu {
+.nav-menu { /* ✅ MINUS BIASA - */
   display: flex;
-  gap: 28px; /* Jarak antar menu sama rata */
-  list‑style: none; /* Hilangkan titik bulat ul */
+  gap: 28px;
+  list-style: none;
 }
 
-.nav‑menu li a {
-  color: white;
-  text‑decoration: none;
-  font‑size: 16px;
+.nav-menu li a {
+  color: white; /* ✅ Warna tulisan menu PUTIH biar terlihat */
+  text-decoration: none;
+  font-size: 16px;
   transition: 0.3s;
 }
 
-.nav‑menu li a:hover {
-  color: #42a5f5; /* Warna biru muda saat dihover */
+.nav-menu li a:hover {
+  color: #42a5f5; /* Biru muda saat di‑hover */
 }
 
-/* Responsif HP: muncul tombol hamburger */
-@media (max‑width: 768px) {
-  .menu‑btn {
+/* Responsif HP */
+@media (max-width: 768px) {
+  .menu-btn {
     display: block;
   }
-  .nav‑menu {
+  .nav-menu {
     position: absolute;
     top: 60px;
-    right: 5%;
-    flex‑direction: column;
-    background: #0f2044;
+    right: 5%;
+    flex-direction: column;
+    background-color: #0f2044; /* ✅ Latar menu HP biru tua */
     padding: 15px;
     gap:15px;
-    display: none; /* Sembunyikan menu hp secara default */
+    display: none;
   }
-  .nav‑menu.active {
+  .nav-menu.active {
     display: flex;
   }
 }
 </style>
 </head>
 <body>
-<!-- Navigasi (kode kamu yang sudah benar struktur) -->
+<!-- Navigasi -->
 <nav>
-  <div class="nav‑wrap">
+  <div class="nav-wrap"> <!-- ✅ SAMA PERSIS nama class -->
     <div class="logo">◆ FiberOptik</div>
-    <div class="menu‑btn" id="menuBtn">☰</div>
-    <ul class="nav‑menu" id="navMenu">
+    <div class="menu-btn" id="menuBtn">☰</div>
+    <ul class="nav-menu" id="navMenu"> <!-- ✅ SAMA PERSIS nama class -->
       <li><a href="#beranda">Beranda</a></li>
       <li><a href="#tentang">Apa Itu?</a></li>
       <li><a href="#kelebihan">Kelebihan</a></li>
@@ -751,8 +750,11 @@ nav {
     </ul>
   </div>
 </nav>
+
 <section id="beranda">
   <h2>Halaman Beranda Fiber Optik</h2>
+</section>
+
 <script>
 const menuBtn = document.getElementById('menuBtn');
 const navMenu = document.getElementById('navMenu');
@@ -760,6 +762,10 @@ menuBtn.addEventListener('click', ()=>{
   navMenu.classList.toggle('active');
 })
 </script>
+</body>
+</html>
+
+
 
     <!-- Beranda/Hero -->
     <section class="hero" id="beranda">
