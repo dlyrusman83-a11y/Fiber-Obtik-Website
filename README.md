@@ -766,7 +766,7 @@ nav {
       padding: 40px 5%;
     }
     .beranda‑isi {
-      max-width: 300px;
+      max-width: 100px;
     }
     #beranda h1 {
       font-size: 42px;
