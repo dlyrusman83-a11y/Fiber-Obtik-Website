@@ -1,0 +1,116 @@
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiber Optik</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #005b96;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #03396c;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            padding: 25px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #005b96;
+        }
+
+        footer {
+            background-color: #03396c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>FIBER OPTIK</h1>
+        <p>Teknologi Jaringan Komunikasi Masa Kini</p>
+    </header>
+
+    <nav>
+        <a href="#pengertian">Pengertian</a>
+        <a href="#fungsi">Fungsi</a>
+        <a href="#kelebihan">Kelebihan</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="content" id="pengertian">
+            <h2>Apa Itu Fiber Optik?</h2>
+            <p>
+                Fiber optik adalah teknologi kabel yang menggunakan
+                serat kaca atau plastik untuk mengirimkan data dalam
+                bentuk cahaya dengan kecepatan tinggi.
+            </p>
+        </div>
+
+        <div class="content" id="fungsi">
+            <h2>Fungsi Fiber Optik</h2>
+            <p>
+                Fiber optik digunakan untuk menghubungkan jaringan
+                internet, komunikasi telepon, televisi, dan berbagai
+                sistem komunikasi digital.
+            </p>
+        </div>
+
+        <div class="content" id="kelebihan">
+            <h2>Kelebihan Fiber Optik</h2>
+            <ul>
+                <li>Kecepatan internet tinggi.</li>
+                <li>Mampu mengirim data jarak jauh.</li>
+                <li>Gangguan elektromagnetik lebih rendah.</li>
+                <li>Kapasitas pengiriman data besar.</li>
+                <li>Kualitas sinyal lebih stabil.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Website Fiber Optik</p>
+    </footer>
+
+</body>
+</html>
