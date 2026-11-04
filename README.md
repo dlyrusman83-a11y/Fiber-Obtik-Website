@@ -753,14 +753,7 @@ nav {
 </nav>
 <section id="beranda">
   <h2>Halaman Beranda Fiber Optik</h2>
-<section id="beranda">
-  </style>
-  <div class="beranda‑isi">
-    <h1>Selamat Datang di Website Teknologi Fiber Optik</h1>
-    <p>Fiber optik adalah kabel yang menggunakan cahaya untuk mengirimkan data berkecepatan tinggi, stabil, dan tahan terhadap gangguan elektromagnetik. Pelajari selengkapnya tentang kelebihan, jenis‑jenis, serta komponen fiber optik di situs ini!</p>
-    <a href="#tentang" class="tombol‑mulai">Pelajari Lebih Lanjut</a>
-  </div>
-</section>
+<section>
 
 <!-- Script untuk tombol menu hp -->
 <script>
