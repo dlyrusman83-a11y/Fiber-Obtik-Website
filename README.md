@@ -758,31 +758,31 @@ nav {
 <section id="beranda">
   <style>
     #beranda {
-      min-height: calc(20vh - 15px); /* Kurangi tinggi navbar biar penuh layar */
-      background: linear-gradient(20deg, #0f2044, #1a3b80); /* Biru tua gradasi */
+      min-height: calc(10vh - 5px); /* Kurangi tinggi navbar biar penuh layar */
+      background: linear-gradient(10deg, #0f2044, #1a3b80); /* Biru tua gradasi */
       color: white;
       display: flex;
       align-items: center;
-      padding: 20px 5%;
+      padding: 10px 5%;
     }
     .beranda‑isi {
-      max-width: 100px;
+      max-width: 10px;
     }
     #beranda h1 {
-      font-size: 22px;
-      margin-bottom: 16px;
+      font-size: 12px;
+      margin-bottom: 13px;
     }
     #beranda p {
-      font-size: 18px;
+      font-size: 14px;
       line-height: 1.6;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
     .tombol‑mulai {
       padding: 12px 8px;
       background‑color: #42a5f5;
       color: white;
       text‑decoration: none;
-      border‑radius: 6px;
+      border‑radius: 3px;
       font‑weight: bold;
     }
   </style>
