@@ -754,8 +754,6 @@ nav {
 <section id="beranda">
   <h2>Halaman Beranda Fiber Optik</h2>
 <section>
-
-<!-- Script untuk tombol menu hp -->
 <script>
 const menuBtn = document.getElementById('menuBtn');
 const navMenu = document.getElementById('navMenu');
