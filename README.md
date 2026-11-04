@@ -219,18 +219,6 @@
             </div>
         </div>
 
-        <!-- Penulis Konten -->
-        <div class="kartu" id="penulis">
-            <div class="foto">🧑‍📝</div>
-            <h2>Nama Anggota 5</h2>
-            <div class="peran-nama">✍️ Penulis Konten</div>
-            <p class="deskripsi">Menyusun tulisan yang jelas, menarik, dan mudah dipahami agar pengunjung mendapatkan informasi dengan baik.</p>
-            <div class="info">
-                📚 Sekolah: SMA 1 Medan<br>
-                📧 Email: anggota5@email.com
-            </div>
-        </div>
-
         <!-- Penguji & Dokumentasi -->
         <div class="kartu" id="penguji">
             <div class="foto">👩‍🔧</div>
