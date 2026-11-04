@@ -288,6 +288,7 @@
             --terang: #f8fafc;
             --abu: #64748b;
             --biru-tua: #0c4a6e;
+            background: linear-gradient(135deg, #0f2044, #1a3b80); /* Biru tua gradasi */
         }
 
         body {
@@ -755,6 +756,42 @@ nav {
 <!-- Isi halaman kamu disini -->
 <section id="beranda">
   <h2>Halaman Beranda Fiber Optik</h2>
+<section id="beranda">
+  <style>
+    #beranda {
+      min-height: calc(100vh - 72px); /* Kurangi tinggi navbar biar penuh layar */
+      background: linear-gradient(135deg, #0f2044, #1a3b80); /* Biru tua gradasi */
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 60px 5%;
+    }
+    .beranda‑isi {
+      max-width: 700px;
+    }
+    #beranda h1 {
+      font-size: 42px;
+      margin-bottom: 16px;
+    }
+    #beranda p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .tombol‑mulai {
+      padding: 12px 28px;
+      background‑color: #42a5f5;
+      color: white;
+      text‑decoration: none;
+      border‑radius: 6px;
+      font‑weight: bold;
+    }
+  </style>
+  <div class="beranda‑isi">
+    <h1>Selamat Datang di Website Teknologi Fiber Optik</h1>
+    <p>Fiber optik adalah kabel yang menggunakan cahaya untuk mengirimkan data berkecepatan tinggi, stabil, dan tahan terhadap gangguan elektromagnetik. Pelajari selengkapnya tentang kelebihan, jenis‑jenis, serta komponen fiber optik di situs ini!</p>
+    <a href="#tentang" class="tombol‑mulai">Pelajari Lebih Lanjut</a>
+  </div>
 </section>
 
 <!-- Script untuk tombol menu hp -->
