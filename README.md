@@ -758,15 +758,15 @@ nav {
 <section id="beranda">
   <style>
     #beranda {
-      min-height: calc(100vh - 72px); /* Kurangi tinggi navbar biar penuh layar */
-      background: linear-gradient(135deg, #0f2044, #1a3b80); /* Biru tua gradasi */
+      min-height: calc(50vh - 35px); /* Kurangi tinggi navbar biar penuh layar */
+      background: linear-gradient(70deg, #0f2044, #1a3b80); /* Biru tua gradasi */
       color: white;
       display: flex;
       align-items: center;
-      padding: 60px 5%;
+      padding: 40px 5%;
     }
     .beranda‑isi {
-      max-width: 700px;
+      max-width: 300px;
     }
     #beranda h1 {
       font-size: 42px;
