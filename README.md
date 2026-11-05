@@ -138,7 +138,7 @@
         }
         .hero-row {
             display: flex;
-            gap: 30px;
+            gap: 50px;
             align-items: center;
             flex-wrap: wrap;
         }
