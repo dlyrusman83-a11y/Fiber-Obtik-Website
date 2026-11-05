@@ -60,7 +60,7 @@
         }
         .nav-menu {
             display: flex;
-            gap: 20px;
+            gap: 30px;
             list-style: none;
         }
         .nav-menu li a {
@@ -138,7 +138,7 @@
         }
         .hero-row {
             display: flex;
-            gap: 50px;
+            gap: 30px;
             align-items: center;
             flex-wrap: wrap;
         }
