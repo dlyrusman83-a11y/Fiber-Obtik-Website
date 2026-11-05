@@ -316,7 +316,7 @@
     <!-- Navigasi -->
     <nav>
         <div class="nav-wrap">
-            <div class="logo">🔷 FiberOptik</div>
+            <div class="logo">  <img src="IMG_2002.jpeg" FiberOptik</div>
             <div class="menu-btn" id="menuBtn">☰</div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#beranda">Beranda</a></li>
@@ -337,7 +337,6 @@
                 <a href="#tentang" class="btn btn-utama">Pelajari Lebih Lanjut</a>
                 <a href="#tentang" class="btn btn-kedua">Mulai</a>
             </div>
-            <img src="IMG_2002.jpeg"
 
      alt="Kabel Fiber Optik"
 
