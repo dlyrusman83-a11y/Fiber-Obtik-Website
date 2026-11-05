@@ -337,11 +337,12 @@
                 <a href="#tentang" class="btn btn-utama">Pelajari Lebih Lanjut</a>
                 <a href="#tentang" class="btn btn-kedua">Mulai</a>
             </div>
+<div class="hero-gambar">
+    <img src="./IMG_2002.jpeg"
+         alt="Kabel Fiber Optik"
+         style="width:100%; height:100%; object-fit:cover; border-radius:12px;">
 
-     alt="Kabel Fiber Optik"
-<img src="IMG_2002.jpeg"
-     alt="Kabel Fiber Optik"
-     style="width:100%; height:350px; object-fit:cover; border-radius:12px;">
+</div>
         </div>
     </section>
 
