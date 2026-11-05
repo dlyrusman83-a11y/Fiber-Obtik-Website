@@ -835,11 +835,33 @@ menuBtn.addEventListener('click', ()=>{
             <ul>
                 <li><strong>🔹Komponen utama penyusun kabel fiber optik terdiri dari beberapa bagian dari dalam keluar:
 
+
 Komponen Utama Kabel Fiber Optik
 
-• Inti (Core): Bagian paling tengah yang terbuat dari kaca atau plastik sangat tipis (berdiameter 2–50 mikrometer) tempat cahaya merambat. • Cladding: Lapisan kaca atau silikon yang menyelimuti core dengan indeks bias lebih rendah. Berfungsi memantulkan kembali cahaya agar tetap terkurung merambat di dalam core (total internal reflection). • Coating (Buffer): Mantel pelindung terbuat dari plastik elastis yang melindungi core dan cladding dari benturan, lengkungan, serta kelembapan udara. • Strength Member: Lapisan penguat (biasanya dari bahan Kevlar atau aramit) agar kabel tahan terhadap tarikan dan tidak mudah putus saat dipasang. • Outer Jacket: Kulit atau pembungkus terluar dari plastik tangguh yang melindungi seluruh bagian kabel dari cuaca, air, gigitan hewan, dan gesekan fisik.
+
+• Inti (Core): Bagian paling tengah yang terbuat dari kaca atau plastik sangat tipis (berdiameter 2–50 mikrometer) tempat cahaya merambat. • Cladding: Lapisan kaca atau silikon yang menyelimuti core dengan indeks bias lebih rendah. Berfungsi memantulkan kembali cahaya agar tetap terkurung merambat di dalam core (total internal reflection). 
+
+
+• Coating (Buffer): Mantel pelindung terbuat dari plastik elastis yang melindungi core dan cladding dari benturan, lengkungan, serta kelembapan udara. 
+
+
+• Strength Member: Lapisan penguat (biasanya dari bahan Kevlar atau aramit) agar kabel tahan terhadap tarikan dan tidak mudah putus saat dipasang. 
+
+
+• Outer Jacket: Kulit atau pembungkus terluar dari plastik tangguh yang melindungi seluruh bagian kabel dari cuaca, air, gigitan hewan, dan gesekan fisik.
+
 
 Perangkat Pendukung Jaringan Fiber Optik
 
-Selain komponen fisik dalam kabel, sistem jaringan fiber optik juga didukung berbagai perangkat instalasi dan distribusi: • Fusion Splicer: Alat untuk menyambungkan dua ujung kabel fiber optik melalui proses peleburan kaca. • OTDR (Optical Time Domain Reflectometer): Alat pengukur kualitas kabel dan pendeteksi titik kerusakan/putus pada jarak jauh. • Optical Distribution Box (ODB / OTB): Kotak terminal tempat pemecahan dan pengaturan jalur distribusi kabel optik. • Pigtail & Patchcord: Potongan kabel optik pendek yang sudah memiliki konektor di ujungnya untuk menghubungkan perangkat ke dalam panel.">
+Selain komponen fisik dalam kabel, sistem jaringan fiber optik juga didukung berbagai perangkat instalasi dan distribusi: 
+
+
+• Fusion Splicer: Alat untuk menyambungkan dua ujung kabel fiber optik melalui proses peleburan kaca. 
+
+
+• OTDR (Optical Time Domain Reflectometer): Alat pengukur kualitas kabel dan pendeteksi titik kerusakan/putus pada jarak jauh. 
+• Optical Distribution Box (ODB / OTB): Kotak terminal tempat pemecahan dan pengaturan jalur distribusi kabel optik. 
+
+
+• Pigtail & Patchcord: Potongan kabel optik pendek yang sudah memiliki konektor di ujungnya untuk menghubungkan perangkat ke dalam panel.">
             
