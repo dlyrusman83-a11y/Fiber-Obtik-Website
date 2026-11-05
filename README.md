@@ -442,4 +442,23 @@
     <section id="kesimpulan">
         <div class="container">
             <h2 class="judul-bagian">Kesimpulan & Penutup
+<section id="kesimpulan">
+    <div class="container">
+        <h2 class="judul-bagian">Kesimpulan & Penutup</h2>
+        <div style="max-width:800px; margin:0 auto; background:#E6F0FC; padding:30px; border-radius:16px; box-shadow:0 8px 24px rgba(8,27,57,0.10);">
+            <p style="margin-bottom:15px;"><strong>Kesimpulan</strong></p>
+            <p style="margin-bottom:15px;">Fiber optik merupakan media transmisi cahaya yang menjadi tulang punggung jaringan komunikasi modern. Meskipun memiliki kekurangan seperti biaya pemasangan mahal dan mudah patah jika ditekuk terlalu tajam, kelebihannya berupa kecepatan tinggi, jangkauan jauh serta tahan gangguan elektromagnetik membuat teknologi ini tetap dipilih untuk internet, kabel bawah laut, pusat data dan jaringan perkantoran.</p>
+            <p><strong>Penutup</strong></p>
+            <p>Dengan perkembangan teknologi saat ini, penggunaan fiber optik akan semakin meluas guna mendukung kebutuhan akses internet cepat di masa depan.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>© 2026 Website Edukasi Fiber Optik | Dibuat untuk Tugas Sekolah</p>
+    </div>
+</footer>
+
 
