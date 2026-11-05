@@ -160,7 +160,6 @@
     <!-- Menu Klik -->
     <div class="menu-peran">
         <button class="tombol-peran aktif" onclick="tampilkan('ketua')">👑 Ketua Kelompok</button>
-        <button class="tombol-peran" onclick="tampilkan('desainer')">🎨 Desainer</button>
         <button class="tombol-peran" onclick="tampilkan('programmer')">💻 Programmer</button>
         <button class="tombol-peran" onclick="tampilkan('peneliti')">📖 Peneliti</button>
         <button class="tombol-peran" onclick="tampilkan('penulis')">✍️ Penulis Konten</button>
