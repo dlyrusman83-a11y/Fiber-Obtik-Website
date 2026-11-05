@@ -338,7 +338,7 @@
                 <p>Fiber Optik adalah teknologi transmisi data menggunakan cahaya melalui serat kaca halus, mampu mengirim informasi jarak jauh dengan kecepatan luar biasa untuk internet, telekomunikasi, dan jaringan masa depan dunia.</p>
                 <a href="#tentang" class="tombol-utama">Pelajari Selengkapnya</a>
             </div>
-            <img src="Fiber Optik Server"IMG_2002.jpeg class="gambar-tentang"> 
+            <img src="Fiber Optik Server"IMG_2002.jpeg f577a7a2be3800a998593b4ce98ff8bcd1e87ac2
         </div>
     </section>
 
