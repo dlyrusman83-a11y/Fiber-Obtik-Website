@@ -181,18 +181,6 @@
             </div>
         </div>
 
-        <!-- Desainer -->
-        <div class="kartu" id="desainer">
-            <div class="foto">👩‍🎨</div>
-            <h2>DEWI PATIMAH</h2>
-            <div class="peran-nama">🎨 Desainer</div>
-            <p class="deskripsi">Membuat desain tampilan yang menarik, memilih warna yang serasi, dan menyusun tata letak halaman agar nyaman dilihat.</p>
-            <div class="info">
-                📚 Sekolah: SMK N 1 PANYABUNGAN<br>
-                📧 Email: @email.com
-            </div>
-        </div>
-
         <!-- Programmer -->
         <div class="kartu" id="programmer">
             <div class="foto">🧑‍💻</div>
