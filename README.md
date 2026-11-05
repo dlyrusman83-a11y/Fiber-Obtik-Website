@@ -184,8 +184,6 @@
         <!-- Programmer -->
         <div class="kartu" id="programmer">
             <div class="foto">🧑‍💻</div>
-            <img src="https://photos.app.goo.gl/3Zq7zWCHtn3zVy9m9" alt="Deskripsi foto" width="300" height="200">
-
             <h2>ADITYA IDRIS</h2>
             <div class="peran-nama">💻 Programmer</div>
             <p class="deskripsi">Menulis kode HTML, CSS, dan JavaScript agar semua fitur website berfungsi dengan baik dan tampil rapi di semua layar.</p>
