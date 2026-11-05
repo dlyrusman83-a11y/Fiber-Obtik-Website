@@ -337,7 +337,7 @@
                 <h1>Teknologi <span>Fiber Optik</span> Penghubung Dunia Digital</h1>
                 <p>Fiber Optik adalah teknologi transmisi data menggunakan cahaya melalui serat kaca halus, mampu mengirim informasi jarak jauh dengan kecepatan luar biasa untuk internet, telekomunikasi, dan jaringan masa depan dunia.</p>
                 <a href="#tentang" class="tombol-utama">Pelajari Selengkapnya</a>
-                <img src="fiber.jpg" alt="foto server fiber" width="200">
+                <img src="fiber.jpg" alt="foto server fiber" width="1049">
             </div>
         </div>
     </section>
