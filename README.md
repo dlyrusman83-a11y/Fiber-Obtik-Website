@@ -347,7 +347,7 @@
         <div class="container">
             <h2 class="judul-bagian">Apa Itu Fiber Optik?</h2>
             <div class="row-tentang">
-                <img src="https://images.unsplash.com/photo-1558008229-3a0486b30903?auto=format&fit=crop&w=500&q=80" alt="Kabel Fiber Optik" class="gambar-tentang">
+                <img src="kabel fiber.jpg" alt="Kabel Fiber Optik" class="gambar-tentang">
                 <div class="teks-tentang">
                     <h3>Pengertian & Cara Kerja Fiber Optik</h3>
                     <p><strong>Fiber Optik (Serat Optik)</strong> adalah kabel komunikasi yang terbuat dari serat kaca atau plastik sangat halus, berfungsi sebagai media transmisi sinyal berupa cahaya untuk mengirim data dari satu tempat ke tempat lain.</p>
